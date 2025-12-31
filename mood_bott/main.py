@@ -1,7 +1,7 @@
 import requests
 
-BOT_TOKEN = "8197270240:AAF1ZW5COJZ3RqyJYfNNA3n6cxG98t-tBZY"
-CHAT_ID = "-1003626550856"
+BOT_TOKEN = "YOUR TOKEN"
+CHAT_ID = "YOUR CHAT ID"
 
 
 def send_message(message: str):
@@ -39,3 +39,4 @@ if __name__ == "__main__":
     message = format_message(moods)
     send_message(message)
     print("Message sent successfully.")
+
